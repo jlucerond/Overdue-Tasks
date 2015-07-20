@@ -1,0 +1,24 @@
+//
+//  PrefixHeader.pch
+//  Overdue Tasks
+//
+//  Created by Joe Lucero on 7/16/15.
+//  Copyright (c) 2015 Joe Lucero. All rights reserved.
+//
+
+#ifndef Overdue_Tasks_PrefixHeader_pch
+#define Overdue_Tasks_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif
+
+
+
+#define TASK_TITLE @"title"
+#define TASK_DUEDATE @"duedate"
+#define TASK_NOTES @"notes"
+#define TASK_COMPLETED @"completed"
+
+#define TASKS_ARRAY_KEY_FOR_NSSTANDUSERSDEFAULTS @"key for array of tasks in NSStandard User Defaults"
